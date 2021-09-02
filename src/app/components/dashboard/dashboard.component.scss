@@ -180,13 +180,19 @@
 
 @media screen and (max-height: 490px) {
   .container__card {
-    margin-top: 100px;
+    margin-top: 20px;
+    height: auto;
   }
+
   .container__item {
     height: 100%;
   }
 
   .container__title__annual__plan {
     margin-left: 0px;
+  }
+
+  .card {
+    margin-bottom: 20px;
   }
 }
